@@ -16,7 +16,7 @@ public class RoomHistory extends AppCompatActivity {
         int roomNumber= getIntent().getIntExtra("RoomNumber",0);
 
         TextView textView = (TextView)findViewById(R.id.room_historyTV);
-        textView.setText(roomNumber+" ");
+        textView.setText(roomNumber+"");
 
     }
 }
